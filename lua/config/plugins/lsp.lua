@@ -86,7 +86,7 @@ return {
 				cmp_nvim_lsp.default_capabilities()
 			)
 
-            # confirm that both jmederosalvarado and the lsp are installed at home/src/roslyn.nvim and .local/share/nvim/roslyn
+            -- confirm that both jmederosalvarado and the lsp are installed at home/[user]/src/roslyn.nvim and .local/share/nvim/roslyn
 			require("roslyn").setup({
 				on_attach = on_attach,
 				capabilities = capabilities,
